@@ -18,11 +18,11 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using SuperNova.Blocks;
+using MCForge.Blocks;
 using BlockID = System.UInt16;
 using BlockRaw = System.Byte;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public partial class PropertyWindow : Form {
         BlockID curBlock;
         List<BlockID> blockIDMap;

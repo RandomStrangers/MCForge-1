@@ -21,7 +21,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using System.Windows.Forms.PropertyGridInternal;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     /// <summary> Hacky workaround for PropertyGrid to fix crashing with some versions of wine-mono </summary>
     public sealed class HackyPropertyGrid : PropertyGrid {
         

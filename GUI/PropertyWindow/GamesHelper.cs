@@ -18,9 +18,9 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using SuperNova.Games;
+using MCForge.Games;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public sealed class GamesHelper {
         CheckBox cbStart, cbMap, cbMain;
         Button btnStart, btnStop, btnEnd, btnAdd, btnDel;

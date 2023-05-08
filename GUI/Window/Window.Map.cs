@@ -19,9 +19,9 @@ using System;
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
-using SuperNova.UI;
+using MCForge.UI;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public partial class Window : Form {
         
         void map_BtnGen_Click(object sender, EventArgs e) {

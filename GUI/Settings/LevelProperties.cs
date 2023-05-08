@@ -17,10 +17,10 @@
  */
 using System;
 using System.ComponentModel;
-using SuperNova.Commands.World;
-using SuperNova.UI;
+using MCForge.Commands.World;
+using MCForge.UI;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public sealed class LevelProperties {     
         readonly Level lvl;
         readonly LevelConfig cfg;

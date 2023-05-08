@@ -21,7 +21,7 @@ using System.Globalization;
 using System.Media;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     [DefaultBindingProperty("Seconds"), DefaultEvent("ValueChanged"), DefaultProperty("Seconds")]
     public class TimespanUpDown : UpDownBase, ISupportInitialize {
         long totalSecs;

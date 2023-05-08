@@ -20,7 +20,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui 
+namespace MCForge.Gui 
 {
     /// <summary> Shortcuts for MessageBox.Show </summary>
     public static class Popup 

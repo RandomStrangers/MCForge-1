@@ -15,12 +15,12 @@ permissions and limitations under the Licenses.
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using SuperNova.Commands;
-using SuperNova.Eco;
-using SuperNova.Events.GameEvents;
-using SuperNova.Games;
+using MCForge.Commands;
+using MCForge.Eco;
+using MCForge.Events.GameEvents;
+using MCForge.Games;
 
-namespace SuperNova.Gui 
+namespace MCForge.Gui 
 {
     public partial class PropertyWindow : Form 
     {
@@ -72,6 +72,7 @@ namespace SuperNova.Gui
             LoadChatProps();
             LoadRelayProps();
             LoadRelayProps1();
+            LoadRelayProps2();
             LoadSqlProps();
             LoadEcoProps();
             LoadMiscProps();
@@ -86,6 +87,7 @@ namespace SuperNova.Gui
                 ApplyChatProps();
                 ApplyRelayProps();
                 ApplyRelayProps1();
+                ApplyRelayProps2();
                 ApplySqlProps();
                 ApplyEcoProps();
                 ApplyMiscProps();
@@ -101,6 +103,7 @@ namespace SuperNova.Gui
             }
             SaveDiscordProps();
             SaveDiscordProps1();
+            SaveDiscordProps2();
         }
 
         void btnSave_Click(object sender, EventArgs e) { SaveChanges(); Dispose(); }

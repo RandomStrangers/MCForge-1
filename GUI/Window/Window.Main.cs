@@ -19,9 +19,9 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using SuperNova.UI;
+using MCForge.UI;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public partial class Window : Form {
         
         Player GetSelectedPlayer() {

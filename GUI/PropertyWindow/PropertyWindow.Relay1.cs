@@ -14,11 +14,11 @@ permissions and limitations under the Licenses.
  */
 using System;
 using System.Windows.Forms;
-using SuperNova.Modules.Relay1.Discord1;
-using SuperNova.Modules.Relay1.IRC1;
-using SuperNova.SQL;
+using MCForge.Modules.Relay1.Discord1;
+using MCForge.Modules.Relay1.IRC1;
+using MCForge.SQL;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
 
     public partial class PropertyWindow : Form { 
         
@@ -46,13 +46,13 @@ namespace SuperNova.Gui {
             irc_cbTitles.Checked = Server.Config.IRCShowPlayerTitles1;
             irc_cbWorldChanges.Checked = Server.Config.IRCShowWorldChanges1;
             irc_cbAFK.Checked = Server.Config.IRCShowAFK1;
-            ToggleIrcSettings(Server.Config.UseIRC1);
+            ToggleIrcSettings1(Server.Config.UseIRC1);
 
             irc_cmbRank.Items.AddRange(GuiPerms.RankNames);
             GuiPerms.SetDefaultIndex(irc_cmbRank, Server.Config.IRCControllerRank1);
             irc_cmbVerify.Items.AddRange(Enum.GetNames(typeof(IRCControllerVerify1)));
-            irc_cmbVerify.SelectedIndex = (int)Server.Config.IRCVerify1;
-            irc_txtPrefix.Text = Server.Config.IRCCommandPrefix1;
+            irc_cmbVerify.SelectedIndex = (int)Server.Config.IRCVerify;
+            irc_txtPrefix.Text = Server.Config.IRCCommandPrefix;
         }
         
         void ApplyIRCProps1() {

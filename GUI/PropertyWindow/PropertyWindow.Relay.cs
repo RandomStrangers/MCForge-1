@@ -14,11 +14,11 @@ permissions and limitations under the Licenses.
  */
 using System;
 using System.Windows.Forms;
-using SuperNova.Modules.Relay.Discord;
-using SuperNova.Modules.Relay.IRC;
-using SuperNova.SQL;
+using MCForge.Modules.Relay.Discord;
+using MCForge.Modules.Relay.IRC;
+using MCForge.SQL;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
 
     public partial class PropertyWindow : Form { 
         

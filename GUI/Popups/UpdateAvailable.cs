@@ -19,7 +19,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui.Popups
+namespace MCForge.Gui.Popups
 {
     public sealed partial class UpdateAvailable : Form
     {

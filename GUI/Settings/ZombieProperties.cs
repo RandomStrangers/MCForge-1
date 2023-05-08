@@ -18,9 +18,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using SuperNova.Games;
+using MCForge.Games;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public sealed class ZombieProperties {  
         
         [Description("Whether players are allowed to pillar in zombie survival. " +

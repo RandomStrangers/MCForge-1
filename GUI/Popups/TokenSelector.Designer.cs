@@ -1,4 +1,4 @@
-﻿namespace SuperNova.Gui.Popups {
+﻿namespace MCForge.Gui.Popups {
     partial class TokenSelector {
         
         /// <summary>

@@ -19,9 +19,9 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
-using SuperNova.Scripting;
+using MCForge.Scripting;
 
-namespace SuperNova.Gui.Popups {
+namespace MCForge.Gui.Popups {
     public partial class CustomCommands : Form {
         
         public CustomCommands() {

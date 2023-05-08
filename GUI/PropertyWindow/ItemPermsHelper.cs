@@ -19,7 +19,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public delegate ItemPerms PermsGetter();
     public sealed class ItemPermsHelper {
         public ComboBox MinBox;

@@ -16,9 +16,9 @@ using System;
 using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
-using SuperNova.Games;
+using MCForge.Games;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public partial class PropertyWindow : Form {
         GamesHelper lsHelper, zsHelper, ctfHelper, twHelper;
         

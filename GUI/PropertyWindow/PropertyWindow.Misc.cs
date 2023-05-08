@@ -14,10 +14,10 @@ permissions and limitations under the Licenses.
  */
 using System;
 using System.Windows.Forms;
-using SuperNova.Gui.Popups;
-using SuperNova.SQL;
+using MCForge.Gui.Popups;
+using MCForge.SQL;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
 
     public partial class PropertyWindow : Form {  
         

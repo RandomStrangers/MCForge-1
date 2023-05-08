@@ -19,10 +19,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
-using SuperNova.Eco;
-using SuperNova.Generator;
+using MCForge.Eco;
+using MCForge.Generator;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
 
     public partial class PropertyWindow : Form {
         

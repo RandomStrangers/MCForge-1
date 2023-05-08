@@ -15,9 +15,9 @@ permissions and limitations under the Licenses.
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using SuperNova.Commands;
+using MCForge.Commands;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
 
     public partial class PropertyWindow : Form {
         

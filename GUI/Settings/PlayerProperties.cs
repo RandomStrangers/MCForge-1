@@ -18,9 +18,9 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using SuperNova.DB;
+using MCForge.DB;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public sealed class PlayerProperties {
         readonly Player p;
         string inMsg, outMsg;

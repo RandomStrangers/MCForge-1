@@ -19,7 +19,7 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public partial class Window : Form {
         
         void logs_dateGeneral_Changed(object sender, EventArgs e) {

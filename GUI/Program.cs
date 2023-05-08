@@ -15,13 +15,15 @@
     or implied. See the Licenses for the specific language governing
     permissions and limitations under the Licenses.
  */
+
 using System;
 using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
+using MCForge;
 
-namespace SuperNova.Gui 
+namespace MCForge.Gui 
 {
     public static class Program 
     {   
@@ -29,12 +31,12 @@ namespace SuperNova.Gui
         public static void Main(string[] args) {
             Environment.CurrentDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             
-            if (!File.Exists("SuperNova_.dll")) {
-                Popup.Error("Cannot start server as SuperNova_.dll is missing from " + Environment.CurrentDirectory 
+            if (!File.Exists("MCForge_.dll")) {
+                Popup.Error("Cannot start server as MCForge_.dll is missing from " + Environment.CurrentDirectory 
                             + "\r\nDownload it from " + Updater.UploadsURL);
                 return;
             }
-            // separate method, in case SuperNova_.dll is missing
+            // separate method, in case MCForge_.dll is missing
             StartGUI();
         }
         

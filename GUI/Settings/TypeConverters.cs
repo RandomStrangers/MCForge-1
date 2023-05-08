@@ -19,7 +19,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     
     internal class ColorConverter : StringConverter {
         public override bool GetStandardValuesSupported(ITypeDescriptorContext context) { return true; }

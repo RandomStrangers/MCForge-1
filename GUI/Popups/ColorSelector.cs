@@ -2,9 +2,9 @@
 using System.Windows.Forms;
 using System.Drawing;
 using System;
-using SuperNova;
+using MCForge;
 
-namespace SuperNova.Gui.Popups 
+namespace MCForge.Gui.Popups 
 {
     internal sealed partial class ColorSelector : Form 
     {

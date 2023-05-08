@@ -22,13 +22,13 @@ using System.Drawing;
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
-using SuperNova.Events.LevelEvents;
-using SuperNova.Events.PlayerEvents;
-using SuperNova.Generator;
-using SuperNova.Gui.Popups;
-using SuperNova.Tasks;
+using MCForge.Events.LevelEvents;
+using MCForge.Events.PlayerEvents;
+using MCForge.Generator;
+using MCForge.Gui.Popups;
+using MCForge.Tasks;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     public partial class Window : Form {
         // for cross thread use
         delegate void StringCallback(string s);

@@ -21,9 +21,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Net.Sockets;
 using System.Windows.Forms;
-using SuperNova.Core;
+using MCForge.Core;
 
-namespace SuperNova.Gui.Popups 
+namespace MCForge.Gui.Popups 
 {
     public partial class PortTools : Form 
     {

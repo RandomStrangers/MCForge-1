@@ -15,9 +15,9 @@ permissions and limitations under the Licenses.
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using SuperNova.Gui.Popups;
+using MCForge.Gui.Popups;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
     
     public partial class PropertyWindow : Form {
         

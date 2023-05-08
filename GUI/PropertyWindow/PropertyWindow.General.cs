@@ -14,11 +14,11 @@ permissions and limitations under the Licenses.
  */
 using System;
 using System.Windows.Forms;
-using SuperNova.Commands;
-using SuperNova.SQL;
-using SuperNova.Gui.Popups;
+using MCForge.Commands;
+using MCForge.SQL;
+using MCForge.Gui.Popups;
 
-namespace SuperNova.Gui {
+namespace MCForge.Gui {
 
     public partial class PropertyWindow : Form {
         bool warnDisabledVerification = true;

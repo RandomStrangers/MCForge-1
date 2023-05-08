@@ -18,9 +18,9 @@
 using System;
 using System.IO;
 using System.Windows.Forms;
-using SuperNova.Util;
+using MCForge.Util;
 
-namespace SuperNova.Gui.Popups 
+namespace MCForge.Gui.Popups 
 {
     public partial class EditText : Form 
     {
