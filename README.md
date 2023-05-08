@@ -1,5 +1,5 @@
 This version of MCForge is a fully featured and customisable **ClassiCube Server Software** based on MCGalaxy, which is based on MCForge/MCLawl.
-This will eventually be reverted and changed to a full version of MCForge, but one that works with MCGalaxy commands, plugins, etc.
+This will eventually be reverted and changed to a full version of MCForge, but one that works with MCGalaxy commands, plugins, eddyn.net, etc.
 
 **Setup**
 -----------------
